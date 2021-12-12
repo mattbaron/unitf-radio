@@ -1,0 +1,10 @@
+I, [2021-12-12T11:09:33.106079 #76401]  INFO -- : Fetching http://mp3archives.wfmu.org/archive/kdb/mp3jump2010.mp3/0:8:5/0/BJ/bj211210.mp3 to /Users/mbaron/music2/WFMU/BJ/bj211210.mp3
+ curl -O /Users/mbaron/music2/WFMU/BJ/bj211210.mp3 http://mp3archives.wfmu.org/archive/kdb/mp3jump2010.mp3/0:8:5/0/BJ/bj211210.mp3
+I, [2021-12-12T11:09:33.236727 #76401]  INFO -- : Fetching http://mp3archives.wfmu.org/archive/kdb/mp3jump2010.mp3/0:7:20/0/BJ/bj211203.mp3 to /Users/mbaron/music2/WFMU/BJ/bj211203.mp3
+ curl -O /Users/mbaron/music2/WFMU/BJ/bj211203.mp3 http://mp3archives.wfmu.org/archive/kdb/mp3jump2010.mp3/0:7:20/0/BJ/bj211203.mp3
+I, [2021-12-12T11:09:33.422437 #76401]  INFO -- : Fetching http://mp3archives.wfmu.org/archive/kdb/mp3jump2010.mp3/0:7:21/0/BJ/bj211126.mp3 to /Users/mbaron/music2/WFMU/BJ/bj211126.mp3
+ curl -O /Users/mbaron/music2/WFMU/BJ/bj211126.mp3 http://mp3archives.wfmu.org/archive/kdb/mp3jump2010.mp3/0:7:21/0/BJ/bj211126.mp3
+I, [2021-12-12T11:09:33.555753 #76401]  INFO -- : Fetching http://mp3archives.wfmu.org/archive/kdb/mp3jump2010.mp3/0:6:32/0/BJ/bj211119.mp3 to /Users/mbaron/music2/WFMU/BJ/bj211119.mp3
+ curl -O /Users/mbaron/music2/WFMU/BJ/bj211119.mp3 http://mp3archives.wfmu.org/archive/kdb/mp3jump2010.mp3/0:6:32/0/BJ/bj211119.mp3
+I, [2021-12-12T11:09:33.707949 #76401]  INFO -- : Fetching http://mp3archives.wfmu.org/archive/kdb/mp3jump2010.mp3/0:0:1/0/BJ/bj081104.mp3 to /Users/mbaron/music2/WFMU/BJ/bj081104.mp3
+ curl -O /Users/mbaron/music2/WFMU/BJ/bj081104.mp3 http://mp3archives.wfmu.org/archive/kdb/mp3jump2010.mp3/0:0:1/0/BJ/bj081104.mp3

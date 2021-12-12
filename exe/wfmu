@@ -1,0 +1,22 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require 'unitf/logging'
+require 'unitf/radio'
+require 'unitf/radio/wfmu'
+
+opt = {}
+shows = OptionParser.new do |opts|
+  opts.on("-d DIR", "Base directory") do |dir|
+    opt[:base_dir] = dir
+  end
+end.parse!
+
+raise StandardError.new("Bad or missing base dir") unless Dir.exist?(opt[:base_dir].to_s)
+
+UnitF::Log.to_console
+
+shows.each do |show_id|
+  UnitF::Radio::WFMU::process_show(show_id, "#{opt[:base_dir]}/#{show_id}")
+end
+
